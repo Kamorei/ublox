@@ -11,7 +11,7 @@ ublox_gps_node:
 
     device: /dev/ttyACM0
     frame_id: gps
-    rate: 5                     # in Hz
+    rate: 5.0                   # in Hz (float)
     nav_rate: 5                 # [# of measurement cycles], recommended 1 Hz, may
                                 # be either 5 Hz (Dual constellation) or
                                 # 8 Hz (GPS only)
